@@ -26,7 +26,7 @@ class ProductList {
         this.#goods = [];
         this.#allProducts = [];
 
-        // this._fetchGoods();
+
         this.#getProducts().then((data) => {
             this.#goods = data;
             this.#render();
